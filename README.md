@@ -4,13 +4,13 @@
 This project aims to predict the likelihood of a diabetes patient being readmitted to the hospital within 30 days, based on their medical history and hospital data.
 
 ## Table of Contents
-1. [Introduction](#Introduction)
-2. [Data](#Data)
-3. [Data Understanding](#Data Understanding)
-4. [Exploratory Data Analysis](#Exploratory-data-analysis)
-5. [Feature Analysis and Engineering](#Feature Analysis and Engineering)
-6. [Modeling and Evaluation](#Modeling and Evaluation)
-7. [Conclusion and Recommendation](#Conclusion and Recommendation)
+1. [Introduction](#introduction)
+2. [Data](#data)
+3. [Data Understanding](#data-understanding)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+5. [Feature Analysis and Engineering](#feature-analysis-and-engineering)
+6. [Modeling and Evaluation](#modeling-and-evaluation)
+7. [Conclusion and Recommendation](#conclusion-and-recommendation)
 
 ## Introduction
 Hospital re-admission can indicate issues in patient care and may reveal areas where medical treatment could be improved. Predicting whether a patient will be readmitted allows healthcare providers to adapt treatments proactively, potentially reducing readmission rates and improving patients' outcome. This project focuses on identifying factors associated with readmissions in diabetic patients and aims to build a model to predict readmission risks.
@@ -33,6 +33,7 @@ The dataset consists of various features related to diabetes patients, including
 - Medical history: Number of lab procedures, Diagnoses, Glucose test results, A1c test results
 - Medication details: Diabetes medications, Changes in medications
 - Readmission status: Readmitted (<30 days, >30 days, No readmission)
+
 More about the data can be found here: https://onlinelibrary.wiley.com/doi/10.1155/2014/781670
 
 
