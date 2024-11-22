@@ -69,10 +69,20 @@ More about the data can be found here: https://onlinelibrary.wiley.com/doi/10.11
 | **Readmitted**              | Nominal  | Days to inpatient readmission. Values: “<30” if readmitted within 30 days, “>30” if readmitted after 30 days, and “No” if not readmitted                                                                                                                                |
 
 ## Data Understanding
-- Handling missing values
-- Encoding categorical variables
-- Scaling numeric features
-- Splitting data into training and test sets
+- The data contained mising values. Some values shown as null and others represented with '?' or Unknown/Invalid.
+    - Columns with missing null values
+        * max_glu_serum - 96420
+        * A1Cresult - 84748
+    - Columns with '?' value repressenting missing data
+        * race - 2273
+        * weight - 98569
+        * payer_code - 40256
+        * medical_specialty - 49949
+        * diag_1 - 21
+        * diag_2 - 358
+        * diag_3 - 1423
+- There were no duplicate rows in the data, but worth noting that there were instances of patients' id recorded multiple instances. With patieent with the most instances being 40 times. This means that patients had been recorded from multiple visists and not an error in the recording.
+- Also woth noting that the data types were right except for columns representing patient or admission identificaction. They were integers and not Object type.
 
 ## Exploratory Data Analysis
 - Distribution of readmission status
